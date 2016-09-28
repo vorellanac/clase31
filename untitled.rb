@@ -1,5 +1,5 @@
 require 'pp'
-a = [1,2,3,9,1,4,5,2,3,6,6]
+a = [1,2,3,9,1,4,5,2,3,6,6,9,3]
 
 
 #Eliminar ultimo elemento
@@ -14,9 +14,9 @@ pp a
 #ejericio 3 
 
 #Borrar el último elemento mientras ese número sea distinto a 1
-if a.last != 1 do
-	a.pop
-end
+# if a.last != 1 do
+# 	a.pop
+#end
 
 
 #Utilizando un arrego vacío auxiliar y operaciones de push and pop invertir el
